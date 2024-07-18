@@ -1,6 +1,6 @@
 {
     "$schema": "https://github.com/ScoopInstaller/Scoop/raw/master/schema.json",
-    "version": "18.1.8-20240619-1",
+    "version": "18.1.8-20240619-2",
     "description": "An LLVM/Clang/LLD based mingw-w64 toolchain",
     "homepage": "https://github.com/mstorsjo/llvm-mingw",
     "license": "ISC",
@@ -199,6 +199,38 @@
         "bin\\x86_64-w64-mingw32uwp-strings.exe",
         "bin\\x86_64-w64-mingw32uwp-strip.exe",
         "bin\\x86_64-w64-mingw32uwp-widl.exe",
-        "bin\\x86_64-w64-mingw32uwp-windres.exe"
+        "bin\\x86_64-w64-mingw32uwp-windres.exe",
+        [
+            "bin\\lldb.exe",
+            "i686-w64-mingw32-lldb"
+        ],
+        [
+            "bin\\lldb.exe",
+            "x86_64-w64-mingw32-lldb"
+        ],
+        [
+            "bin\\lldb.exe",
+            "armv7-w64-mingw32-lldb"
+        ],
+        [
+            "bin\\lldb.exe",
+            "aarch64-w64-mingw32-lldb"
+        ],
+        [
+            "bin\\lldb-mi.exe",
+            "i686-w64-mingw32-lldb-mi"
+        ],
+        [
+            "bin\\lldb-mi.exe",
+            "x86_64-w64-mingw32-lldb-mi"
+        ],
+        [
+            "bin\\lldb-mi.exe",
+            "armv7-w64-mingw32-lldb-mi"
+        ],
+        [
+            "bin\\lldb-mi.exe",
+            "aarch64-w64-mingw32-lldb-mi"
+        ]
     ]
 }
