@@ -1,19 +1,19 @@
 {
     "$schema": "https://github.com/ScoopInstaller/Scoop/raw/master/schema.json",
-    "version": "21.1.8",
+    "version": "22.1.0",
     "description": "An LLVM/Clang/LLD based mingw-w64 toolchain",
     "homepage": "https://github.com/mstorsjo/llvm-mingw",
     "license": "ISC",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20251216/llvm-mingw-20251216-msvcrt-x86_64.zip",
-            "hash": "134486a2113b0bfd88e640957eef8709d63ea4855587b286348f9249d7679663",
-            "extract_dir": "llvm-mingw-20251216-msvcrt-x86_64"
+            "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20260224/llvm-mingw-20260224-msvcrt-x86_64.zip",
+            "hash": "44d3f15dff17a177cc863a64fa1432eb4526db5768b24df1a4c8ff405fcf10f8",
+            "extract_dir": "llvm-mingw-20260224-msvcrt-x86_64"
         },
         "32bit": {
-            "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20251216/llvm-mingw-20251216-msvcrt-i686.zip",
-            "hash": "6087b4ed68e2fcfb40c763d34eca69462b5884b5309ebea6d31393528ab4d172",
-            "extract_dir": "llvm-mingw-20251216-msvcrt-i686"
+            "url": "https://github.com/mstorsjo/llvm-mingw/releases/download/20260224/llvm-mingw-20260224-msvcrt-i686.zip",
+            "hash": "a5722bb990ad9d4a4354a736427139495e0b0485a37d0ea2a3c99cc1fa92ef4a",
+            "extract_dir": "llvm-mingw-20260224-msvcrt-i686"
         }
     },
     "checkver": {
